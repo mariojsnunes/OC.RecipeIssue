@@ -1,0 +1,45 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.31903.286
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{FC3ACE58-2F97-4C47-BEAA-BCF94AC44995}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+		Directory.Build.props = Directory.Build.props
+		Directory.Packages.props = Directory.Packages.props
+		nuget.config = nuget.config
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{6BAB90FA-CACE-42A4-9997-09B44375D60D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Apps", "src\Apps\Apps.csproj", "{894C3E9F-F288-2608-B80D-B3EE38191682}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Web", "src\Web\Web.csproj", "{E5706BEE-C3FB-E7BE-641A-413C1A61D716}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{894C3E9F-F288-2608-B80D-B3EE38191682}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{894C3E9F-F288-2608-B80D-B3EE38191682}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{894C3E9F-F288-2608-B80D-B3EE38191682}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{894C3E9F-F288-2608-B80D-B3EE38191682}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E5706BEE-C3FB-E7BE-641A-413C1A61D716}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E5706BEE-C3FB-E7BE-641A-413C1A61D716}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E5706BEE-C3FB-E7BE-641A-413C1A61D716}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E5706BEE-C3FB-E7BE-641A-413C1A61D716}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{894C3E9F-F288-2608-B80D-B3EE38191682} = {6BAB90FA-CACE-42A4-9997-09B44375D60D}
+		{E5706BEE-C3FB-E7BE-641A-413C1A61D716} = {6BAB90FA-CACE-42A4-9997-09B44375D60D}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {886BF183-C640-49AB-8F73-88D3C074CCE5}
+	EndGlobalSection
+EndGlobal

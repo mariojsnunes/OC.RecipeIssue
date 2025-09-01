@@ -1,0 +1,40 @@
+<Project>
+  <PropertyGroup>
+    <ManagePackageVersionsCentrally>true</ManagePackageVersionsCentrally>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageVersion Include="OrchardCore.Module.Targets" Version="2.1.9" />
+    <PackageVersion Include="OrchardCore.Alias" Version="2.1.9" />
+    <PackageVersion Include="OrchardCore.ContentFields" Version="2.1.9" />
+    <PackageVersion Include="OrchardCore.Data.Abstractions" Version="2.1.9" />
+    <PackageVersion Include="OrchardCore.Media" Version="2.1.9" />
+    <PackageVersion Include="OrchardCore.Users.Abstractions" Version="2.1.9" />
+    <PackageVersion Include="OrchardCore.Users.Core" Version="2.1.9" />
+    <PackageVersion Include="OrchardCore.Data" Version="2.1.9" />
+    <PackageVersion Include="OrchardCore" Version="2.1.9" />
+    <PackageVersion Include="OrchardCore.Admin.Abstractions" Version="2.1.9" />
+    <PackageVersion Include="OrchardCore.ContentManagement.GraphQL" Version="2.1.9" />
+    <PackageVersion Include="OrchardCore.Contents" Version="2.1.9" />
+    <PackageVersion Include="OrchardCore.Email.Abstractions" Version="2.1.9" />
+    <PackageVersion Include="OrchardCore.DisplayManagement" Version="2.1.9" />
+    <PackageVersion Include="OrchardCore.Flows" Version="2.1.9" />
+    <PackageVersion Include="OrchardCore.Html" Version="2.1.9" />
+    <PackageVersion Include="OrchardCore.Indexing" Version="2.1.9" />
+    <PackageVersion Include="OrchardCore.Title" Version="2.1.9" />
+    <PackageVersion Include="OrchardCore.PublishLater" Version="2.1.9" />
+    <PackageVersion Include="OrchardCore.Recipes.Abstractions" Version="2.1.9" />
+    <PackageVersion Include="OrchardCore.ResourceManagement" Version="2.1.9" />
+    <PackageVersion Include="OrchardCore.Setup.Abstractions" Version="2.1.9" />
+    <PackageVersion Include="OrchardCore.Setup" Version="2.1.9" />
+    <PackageVersion Include="OrchardCore.ContentTypes" Version="2.1.9" />
+    <PackageVersion Include="OrchardCore.Email" Version="2.1.9" />
+    <PackageVersion Include="OrchardCore.Localization" Version="2.1.9" />
+    <PackageVersion Include="OrchardCore.ContentManagement" Version="2.1.9" />
+    <PackageVersion Include="Microsoft.Data.SqlClient" Version="5.2.0" />
+    <PackageVersion Include="OrchardCore.ContentManagement.Abstractions" Version="2.1.9" />
+    <PackageVersion Include="Microsoft.Extensions.Configuration.Abstractions" Version="8.0.0" />
+    <PackageVersion Include="Microsoft.Extensions.Configuration.Binder" Version="8.0.2" />
+    <PackageVersion Include="Microsoft.AspNetCore.DataProtection" Version="8.0.5" />
+    <PackageVersion Include="OrchardCore.Application.Cms.Targets" Version="2.1.9" />
+  </ItemGroup>
+</Project>
